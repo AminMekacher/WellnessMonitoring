@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "1075417088972",
+    "firebase_url": "https://checkup-notification.firebaseio.com",
+    "project_id": "checkup-notification",
+    "storage_bucket": "checkup-notification.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1075417088972:android:13720c03051dbc69",
+        "android_client_info": {
+          "package_name": "me.becare.checkup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1075417088972-tuapehd9roqgedhk5likr93hp67a8puk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCREd7ho1ijPHzYUpa7BRhTWwnIxXNEXsY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1075417088972:android:0e834ce1b72faf88",
+        "android_client_info": {
+          "package_name": "ch.epfl.esl.studentactivitymonitoring"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1075417088972-tuapehd9roqgedhk5likr93hp67a8puk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCREd7ho1ijPHzYUpa7BRhTWwnIxXNEXsY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

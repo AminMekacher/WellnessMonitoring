@@ -1,0 +1,164 @@
+<resources>
+    <string name="app_name">Contrôle de Santé</string>
+
+    <!-- Strings related to login -->
+    <string name="first_name">Prénom</string>
+    <string name="last_name">Nom</string>
+    <string name="already_registered">Déjà enregistré ? Connectez-vous ici</string>
+    <string name="continue_signup">Continuer</string>
+    <string name="prompt_email">E-mail</string>
+    <string name="prompt_password">Mot de Passe</string>
+    <string name="prompt_repeat_password">Confirmer le mot de passe</string>
+    <string name="action_sign_in">Connexion</string>
+    <string name="action_register">Créer un compte</string>
+    <string name="action_sign_in_short">Connexion</string>
+    <string name="show_password">Montrer le mot de passe</string>
+    <string name="forgot_password">Mot de passe oublié</string>
+    <string name="action_sign_up">Pas encore membre ? Inscrivez-vous ici</string>
+    <string name="error_invalid_email">Cet e-mail est erroné</string>
+    <string name="error_invalid_login_credentials">Identifiants invalides</string>
+    <string name="error_invalid_password">Ce mot de passe est trop court</string>
+    <string name="error_incorrect_password">Ce mot de passe est incorrect</string>
+    <string name="error_field_required">Champ requis</string>
+    <string name="change_password_email">Un e-mail vous a été envoyé pour changer le mot de passe</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email completions."</string>
+    <string name="welcome_message">Bienvenue!</string>
+    <string name="battery_optimization">Veuillez désactiver l’optimisation de la pile!</string>
+    <string name="send_email_fail">Impossible d\'\envoyer l\'\email</string>
+
+
+    <!-- Registration -->
+    <string name="select_language">Langue : </string>
+    <string name="english">Anglais</string>
+    <string name="french">Francais</string>
+    <string name="gender_select">Sexe : </string>
+    <string name="gender_male">Homme</string>
+    <string name="gender_female">Femme</string>
+    <string name="back_signup">Retour</string>
+    <string name="sign_up">Inscription</string>
+    <string name="height_signup">Taille (cm)</string>
+    <string name="birth_date">Date de Naissance</string>
+    <string name="done">Terminé</string>
+    <string name="error_password_mismatch">Les deux mots de passe sont différents</string>
+    <string name="confirmation_email">Un e-mail de confirmation vous a été envoyé. Suivez le lien dans l\'\e-mail, puis appuyez sur le bouton ci-dessous pour vous reconnecter </string>
+    <string name="resend_confirmation">Renvoyer l\'\e-mail de confirmation</string>
+    <string name="birth_date_btn">Sélectionner date de naissance</string>
+
+    <!-- Welcome -->
+    <string name="try_again">Une erreur est survenue. Veillez ressayez de commencer le test</string>
+    <string name="try_again_questionnaire">Une erreur est survenue. Veuillez ressayer de finir le test.</string>
+
+    <!--Bluetooth scanning-->
+    <string name="saved_bt_device">Dernier appareil connecté: </string>
+    <string name="not_saved_bt_device">Vous n\'\avez pas de connexions précédentes</string>
+    <string name="select_new_bt_device">Connexion à un nouvel appareil Bluetooth</string>
+    <string name="ble_not_supported">BLE non compatible</string>
+    <string name="error_bluetooth_not_supported">Erreur : Bluetooth non compatible</string>
+    <string name="unknown_device">Appareil Inconnu</string>
+    <string name="connect">Connexion</string>
+    <string name="info_previous_device">Infos au sujet du dernier appareil connecté</string>
+    <string name="reconnect">Reconnexion</string>
+    <string name="problem_connecting">Erreur en connectant avec </string>
+    <string name="select_other_device">, essayez un autre appareil</string>
+    <string name="successful_connection">Connecté à l\'\appareil </string>
+
+    <!--Orthostatic test-->
+    <string name="welcome_orthostatic">Bienvenue ! Etes-vous prêt pour un nouveau test ?</string>
+    <string name="select_bt_device">Séléctionnez un appareil Bluetooth</string>
+    <string name="orthostatic_btn">Lancer test orthostatique d\'\aujourd\'\hui</string>
+    <string name="whole_ortho_btn">Lancer test orthostatique complet</string>
+    <string name="press_button">Appuyez sur le bouton pour démarrer le test</string>
+    <string name="start_test">Commencer</string>
+    <string name="get_ready">Préparez-vous à vous allonger</string>
+    <string name="lie_down">Allongez-vous pendant 5 minutes</string>
+    <string name="stand_up">Levez-vous pendant 5 minutes</string>
+    <string name="test_complete">Fin du test</string>
+    <string name="data_upload_success">Données bien enregistrées!</string>
+    <string name="data_upload_failure">Les données ne sont pas bien enregistrées.</string>
+    <string name="wear_not_connected">Veuillez connecter votre smartwatch avant de lancer le test.</string>
+    <string name="ortho_test_error">ERREUR: Vous ne portez pas la ceinture correctement. Réajustez la ceinture.</string>
+
+    <!--Forgotten password-->
+    <string name="registered_email">Veuillez entrer ci-dessous l\'\adresse e-mail associée à votre compte:</string>
+    <string name="submit">Soumettre</string>
+
+    <!-- Questionnaire -->
+    <string name="input_must_be_integer">Veuillez entrer un nombre entier</string>
+    <string name="enter_realistic_value">Veuillez entrer un nombre raisonnable</string>
+
+    <!-- List Item Device -->
+    <string name="device_name">Nom de l\'\appareil</string>
+    <string name="device_number">Numéro de l\'\appareil</string>
+
+    <!-- Email confirmation -->
+    <string name="thank_you_singup">Merci pour votre inscription!</string>
+    <string name="back_login">Retour à la connexion</string>
+    <string name="resend_btn">Renvoyer l\'email</string>
+    <string name="resend_email">Toujours pas reçu l\'email ? Merci de cliquer sur le boutton ci-dessus</string>
+    <string name="text_confirmation">Vous allez prochainement recevoir un email de confirmation dans votre boîte de réception. Veuillez cliquer sur le lien inclus pour confirmer votre inscription</string>
+
+    <string name="date_picker">datePicker</string>
+    <string name="time_picker">timePicker</string>
+    <string name="date">Date de Naissance: </string>
+    <string name="time">Nouvelle Heure de Notification: </string>
+
+    <!---Help messages -->
+    <string name="help_welcome">Sur le menu d’options, vous pouvez sélectionner l’heure de vos rappels des tests de bien-être. Il faut faire le test le matin avant de manger le petit déjeuner. Les tests doivent être faits les mardis, jeudis et vendredis. Cliquez sur « Commencer test orthostatique » pour commencer.</string>
+    <string name="help_email_confirmation">Un email sera envoyé au compte que vous avez indiqué. Si vous ne recevez pas l’email après deux ou trois minutes, cliquez sur le bouton « Renvoyer l’email de confirmation ».</string>
+    <string name="help_forgot_pwd">Entrez l’email que vous avez utilisé pour vous enregistrer, puis cliquez sur « Soumettre » et un lien vous sera envoyé pour changer le mot de passe.</string>
+    <string name="help_login_activity">	Entrez l’email et le mot de passe que vous avez utilisés pour vous enregistrer, puis cliquez sur « Connexion. » Si vous avez oublié votre mot de passe, cliquez sur « Mot de passe oublié ». Si vous n’êtes pas enregistré, cliquez sur le lien en bas de l’écran. Si vous recevez un message d’erreur, l’email ou le mot de passe que vous avez entré est erroné.</string>
+    <string name="help_questionnaire">Répondez aux questions suivantes concernant votre journée d’hier. Les barres de recherche correspondent à une phrase, que vous classez de « fausse » a « vraie » en bougeant la barre de gauche à droite. Les questions numériques vous obligent à entrer un chiffre dans la zone de texte. Cliquez sur « Fini » quand vous avez complété le questionnaire, et attendez pour que l’application revienne sur la page d’accueil.</string>
+    <string name="help_register">Entrez vos informations dans les zones de texte. Assurez-vous que les deux mots de passe sont identiques, et que l’adresse e-mail que vous avez entrée n’est pas déjà liée à un compte « Wellness Monitor », sinon une erreur apparaitra quand vous essayerez de vous enregistrer. L’application est en Anglais par défaut, mais vous pouvez la mettre en français en cochant sur le bouton « français ». Il est impératif de mettre votre date de naissance et votre sexe. Quand vous avez fini, cliquez sur « Inscription ».</string>
+    <string name="help_ortho_test">Le test de bien-être vous oblige à vous allonger pendant 5 minutes, et sur certains jours de vous lever pendant 5 minutes, pendant que vous portez la ceinture thoracique. Quand vous cliquez sur « Commencer », le portable ou la tablette vibrera et vous montrera des instructions. Quand vous aurez fini, vous compléterez un questionnaire concernant votre journée d’hier.</string>
+    <string name="help_select_bt">Trouvez votre ceinture thoracique sur la liste d’appareils Bluetooth. Si vous l’avez déjà connectée, vous pouvez cliquer sur « Reconnecter ». Assurez-vous que la ceinture est près du smartphone/tablette et que vous le portez bien, sinon vous ne pourrez pas commencer le test.</string>
+
+    <!-- menu -->
+    <string name="menu_set_notification_time">Modifier l\'\heure des notifications</string>
+    <string name="menu_help">Aide</string>
+    <string name="previous_workouts">Entrainements précédents</string>
+
+    <!-- firebase notifications -->
+    <string name="test_results">Résultats d\'\analyse</string>
+    <string name="notification_fatigue">Attention, un risque de fatigue a été détecté.</string>
+    <string name="notification_no_fatigue">Pas de risque de fatigue détecté, continuez votre mode de vie et d\'\activité habituel.</string>
+
+    <!-- our notifications -->
+    <string name="notif_title">Rappel: Test Orthostatique / Questionnaire</string>
+    <string name="notif_text">Veuillez compléter le test ou questionnaire dès que possible</string>
+
+    <!-- history activity -->
+
+    <string name="hr_graph_text">Rythme cardiaque durant vos derniers entraînements (bpm)</string>
+    <string name="duration_text">Durée de vos derniers entraînements (en secondes)</string>
+    <string name="display_graph">Veuillez choisir le graphique que vous souhaitez afficher</string>
+    <string name="workout_duration">Durée de l\'exercice</string>
+    <string name="heart_rate">Rythme cardiaque</string>
+    <string name="workout_number">Date de l\'entraînement</string>
+    <string name="workout_duration_graph">Durée de l\'entraînement [s]</string>
+    <string name="heart_rate_bpm">Rythme cardiaque (bpm)</string>
+    <string name="no_registered_workout">Vous n\'avez actuellement pas d\'entraînements enregistrés</string>
+    <string name="max_hr">Rythme cardiaque maximal</string>
+    <string name="min_hr">Rythme cardiaque minimal</string>
+    <string name="avg_hr">Rythme cardiaque moyen</string>
+    <string name="duration_toast">Durée: </string>
+    <string name="seconds_toast"> secondes</string>
+    <string name="date_toast">Date: </string>
+    <string name="min_toast">Rythme cardiaque minimum: </string>
+    <string name="max_toast">Rythme cardiaque maximum: </string>
+    <string name="avg_toast">Rythme cardiaque moyen: </string>
+    <string name="bpm_toast">bpm</string>
+    <string name="duration_instruction">Appuyez sur un point pour afficher la durée</string>
+    <string name="hr_instruction">Appuyez sur un cercle bleu pour afficher le rythme cardiaque moyen</string>
+    <string name="workout">Entrainement</string>
+
+    <string name="ortho_time">Seconds</string>
+    <string name="hr_ortho_label">Fréquence cardiaque pendant le test orthostatique</string>
+    
+    <string name="go_to_questionnaire">Lancez le Questionnaire</string>
+    <string name="questionnaire_warning">Attention! Si vous ne remplissez pas le questionnaire, vous ne finirez pas le test.</string>
+
+    <!-- Fatigue level -->
+    <string name="fatigue_level">Niveau de fatigue</string>
+    <string name="fatigue_help">Que représente le niveau de fatigue ?</string>
+
+</resources>

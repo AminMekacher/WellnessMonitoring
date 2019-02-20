@@ -1,0 +1,164 @@
+<resources>
+    <string name="app_name">Wellness Monitor</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_repeat_password">Confirm password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_register">Register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="show_password">Show Password</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="action_sign_up">Not a member yet? Sign up here</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_login_credentials">Invalid login credentials</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="change_password_email">An e-mail has been sent to you with a link to change your password</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="welcome_message">Welcome!</string>
+    <string name="battery_optimization">Make sure to disable battery optimization!</string>
+    <string name="send_email_fail">Failed to send e-mail</string>
+
+    <!-- Registration -->
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="already_registered">Already registered? Login here</string>
+    <string name="continue_signup">Continue</string>
+    <string name="select_language">Language: </string>
+    <string name="english">English</string>
+    <string name="french">French</string>
+    <string name="gender_select">Gender: </string>
+    <string name="gender_male">Male</string>
+    <string name="gender_female">Female</string>
+    <string name="back_signup">Back</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="height_signup">Height (cm)</string>
+    <string name="birth_date">Birth Date</string>
+    <string name="done">Done</string>
+    <string name="error_password_mismatch">The passwords do not match</string>
+    <string name="confirmation_email">A confirmation email has been sent. Follow the link in your e-mail and then press the button below to sign in.</string>
+    <string name="resend_confirmation">Resend confirmation e-mail</string>
+    <string name="birth_date_btn">Select birth date</string>
+
+    <!-- Welcome -->
+    <string name="try_again">An error occurred. Please retry to start the test</string>
+    <string name="try_again_questionnaire">An error occurred. Please retry to complete the test.</string>
+
+    <!--Bluetooth scanning-->
+    <string name="saved_bt_device">You previously connected to this device: </string>
+    <string name="not_saved_bt_device">You have no previous device connections</string>
+    <string name="select_new_bt_device">Connect to a new Bluetooth-enabled device</string>
+    <string name="ble_not_supported">BLE not supported</string>
+    <string name="error_bluetooth_not_supported">Error: Bluetooth not supported</string>
+    <string name="unknown_device">Unknown Device</string>
+    <string name="connect">Connect</string>
+    <string name="info_previous_device">Info about previous connected device</string>
+    <string name="reconnect">Reconnect</string>
+    <string name="problem_connecting">Problem connecting to </string>
+    <string name="select_other_device">, try another device</string>
+    <string name="successful_connection">Successfully connected to </string>
+
+    <!--Orthostatic test-->
+    <string name="welcome_orthostatic">Welcome! Are you ready for a new test?</string>
+    <string name="select_bt_device">Select a Bluetooth-enabled device</string>
+    <string name="orthostatic_btn">Start Orthostatic Test</string>
+    <string name="whole_ortho_btn">Start Whole Orthostatic Test</string>
+    <string name="press_button">Press the button to start the test</string>
+    <string name="start_test">Start</string>
+    <string name="get_ready">Get ready to lie down</string>
+    <string name="lie_down">Lie down for 5 minutes</string>
+    <string name="stand_up">Stand up for 5 minutes</string>
+    <string name="test_complete">Test complete</string>
+    <string name="data_upload_success">Data upload successful!</string>
+    <string name="data_upload_failure">Data upload failed</string>
+    <string name="wear_not_connected">Please connect your smartwatch to the phone/tablet before starting the test.</string>
+    <string name="ortho_test_error">ERROR: You are not wearing the belt correctly. Readjust the belt.</string>
+
+    <!--Forgotten password-->
+    <string name="registered_email">Please enter your Registered E-mail ID below:</string>
+    <string name="submit">Submit</string>
+
+    <!-- Questionnaire -->
+    <string name="input_must_be_integer">The input to this field must be an integer</string>
+    <string name="enter_realistic_value">Please enter a realistic number</string>
+
+    <!-- List Item Device -->
+    <string name="device_name">Name: Device Name</string>
+    <string name="device_number">Device Number</string>
+
+    <!-- Email confirmation -->
+    <string name="thank_you_singup">Thank you for registering!</string>
+    <string name="back_login">Back to login</string>
+    <string name="resend_btn">Resend e-mail</string>
+    <string name="resend_email">Still haven\'t received the mail yet? Please click on the button above</string>
+    <string name="text_confirmation">You will shortly receive a confirmation mail in your inbox. Please click on the attached link to confirm your account</string>
+
+    <string name="date_picker">datePicker</string>
+    <string name="time_picker">timePicker</string>
+    <string name="date">Birth Date: </string>
+    <string name="time">New Notification Time : </string>
+
+    <!---Help messages -->
+    <string name="help_welcome">Welcome to the Wellness Monitor! In the options menu, you can select a time for your wellness test reminders. You must do the test in the morning before you eat breakfast. Tests must be completed Tuesdays, Thursdays, and Fridays. Click "Start Orthostatic Test" to begin.</string>
+    <string name="help_email_confirmation">An e-mail confirmation will be sent to the e-mail address you provided. If you do not get the e-mail within two to three minutes, click "Resend E-mail".</string>
+    <string name="help_forgot_pwd">Enter the e-mail address that you used to register, press “Submit,” and a link will be sent for you to reset your password.</string>
+    <string name="help_login_activity">Enter the e-mail and password that you used to register, and then press "Sign in". If you forgot your password, click on "Forgot Password". If you have no yet registered, click the link on the bottom of the screen.</string>
+    <string name="help_questionnaire">Answer the following questions about your day <b>yesterday</b>. The sliding bar questions display a statement, which you rank from "false" to "true" by sliding the bar from left to right. The numeric answers require you to enter a number into the text box. Press "Done" when you finish and wait until the application goes back to the Welcome screen</string>
+    <string name="help_register">Enter your credentials into the text fields. Make sure that the passwords match, and that the e-mail you provided is valid and has not already been linked to a Wellness Monitor account, or else an error will appear when you try to register. The app is in English by default, but you can set it to French by clicking the "French" button. Please be sure to set a birthdate and gender; these fields are required. When you are done, click "Sign Up".</string>
+    <string name="help_select_bt">Find your heart rate monitoring belt from the list of Bluetooth devices in range. If you previously connected to it, click "reconnect". Make sure that this device is in range and functioning properly, or else you will not be able to begin the test.</string>
+    <string name="help_ortho_test">The orthostatic test requires you to sit down and/or stand up for 5 minutes. When you press "Start," the phone will vibrate and tell you what to do. When you are done, you will complete a questionnaire about your day <b>yesterday</b>.</string>
+
+    <!-- menu -->
+    <string name="menu_set_notification_time">Set Test Reminder Time</string>
+    <string name="menu_help">Help</string>
+    <string name="previous_workouts">Previous workouts</string>
+
+    <!-- firebase notifications -->
+    <string name="test_results">Test Results</string>
+    <string name="notification_fatigue">Attention! A fatigue risk has been detected.</string>
+    <string name="notification_no_fatigue">No fatigue risk detected. Please continue your normal lifestyle and activity regimen.</string>
+
+    <!-- our notifications -->
+    <string name="notif_title">Reminder: Orthostatic Test / Questionnaire</string>
+    <string name="notif_text">Please complete the test or questionnaire as soon as possible</string>
+
+    <!-- history activity -->
+
+    <string name="hr_graph_text">Heart rate statistics of your last workouts (bpm)</string>
+    <string name="duration_text">Duration of your last workouts (in seconds)</string>
+    <string name="display_graph">Please select the history graph you want to display</string>
+    <string name="workout_duration">Duration</string>
+    <string name="heart_rate">Heart Rate</string>
+    <string name="workout">Workout</string>
+    <string name="workout_duration_graph">Workout Duration [s]</string>
+    <string name="workout_number">Workout date</string>
+    <string name="heart_rate_bpm">Heart Rate (bpm)</string>
+    <string name="no_registered_workout">You don\'t have any registered workout yet</string>
+    <string name="max_hr">Maximum Heart Rate</string>
+    <string name="min_hr">Minimum Heart Rate</string>
+    <string name="avg_hr">Average Heart Rate</string>
+    <string name="duration_toast">Duration: </string>
+    <string name="seconds_toast"> seconds</string>
+    <string name="date_toast">Date:</string>
+    <string name="min_toast">Minimum heart rate: </string>
+    <string name="max_toast">Maximum heart rate: </string>
+    <string name="avg_toast">Average heart rate: </string>
+    <string name="bpm_toast">bpm</string>
+
+    <string name="duration_instruction">Click on any point to display the duration</string>
+    <string name="hr_instruction">Click on any blue circle to display the average heart rate</string>
+
+    <string name="ortho_time">Time (s)</string>
+    <string name="hr_ortho_label">Heart Rate during Orthostatic Test</string>
+    <string name="go_to_questionnaire">Start Questionnaire</string>
+    <string name="questionnaire_warning">Warning! If you do not fill out the questionnaire, the test will not be complete.</string>
+    <string name="fatigue_level">Fatigue Level</string>
+    <string name="fatigue_help">What is the fatigue level?</string>
+
+
+</resources>

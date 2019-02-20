@@ -1,0 +1,7 @@
+<resources>
+    <string name="hello_world">Hello Round World!</string>
+    <string name="start_workout">Click on the button below to start the workout</string>
+    <string name="app_name">Wellness Monitor</string>
+    <string name="hr">Heart Rate: </string>
+    <string name="time">Time:</string>
+</resources>

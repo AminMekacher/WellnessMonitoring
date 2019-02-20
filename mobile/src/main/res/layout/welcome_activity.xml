@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/background_color"
+        android:padding="5dp">
+
+        <ProgressBar
+            android:id="@+id/welcome_progress"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="8dp" />
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/welcome_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/background_color"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <ImageView
+                android:id="@+id/fee_logo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:scaleType="fitStart"
+                android:scaleX="1"
+                android:scaleY="1"
+                android:src="@mipmap/fee_logo" />
+
+            <TextView
+                android:id="@+id/orthoTestDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/welcome_orthostatic"
+                android:textColor="@color/white_greyish"
+                android:textSize="21sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="38dp"
+                android:scaleX="2.5"
+                android:scaleY="2.5"
+                android:src="@mipmap/orthostatic" />
+
+            <Button
+                android:id="@+id/startOrthoTest"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/loginbutton_selector"
+                android:padding="10dp"
+                android:text="@string/orthostatic_btn"
+                android:textColor="@color/background_color"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/startOrthoTestWhole"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/loginbutton_selector"
+                android:padding="10dp"
+                android:text="@string/whole_ortho_btn"
+                android:textColor="@color/background_color"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/background_color"
+                android:orientation="horizontal"
+                android:paddingBottom="15dip"
+                android:paddingTop="15dip">
+
+                <ImageView
+                    android:id="@+id/epfl_logo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:scaleType="fitCenter"
+                    android:scaleX="1.5"
+                    android:scaleY="1.5"
+                    android:src="@mipmap/epfl_logo" />
+
+                <ImageView
+                    android:id="@+id/css_logo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:scaleType="fitCenter"
+                    android:scaleX="1.5"
+                    android:scaleY="1.5"
+                    android:src="@mipmap/css_logo" />
+
+                <ImageView
+                    android:id="@+id/unil_logo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:scaleType="fitCenter"
+                    android:scaleX="1.5"
+                    android:scaleY="1.5"
+                    android:src="@mipmap/unil_logo" />
+
+            </LinearLayout>
+
+            <com.jjoe64.graphview.GraphView
+                android:id="@+id/heartrate_graph"
+                android:layout_width="match_parent"
+                android:layout_height="200dip"
+                android:visibility="invisible" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

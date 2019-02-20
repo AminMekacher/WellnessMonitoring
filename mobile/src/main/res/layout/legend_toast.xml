@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D777"
+    android:id="@+id/toast_layout">
+
+    <TextView
+        android:id="@+id/toast_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Legend of the graph:"
+        android:textColor="@color/white_greyish"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        android:layout_below="@id/layout_buttons"/>
+
+    <TextView
+        android:id="@+id/max_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Maximum heart rate"
+        android:textColor="@color/white_greyish"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        android:layout_below="@id/toast_title"
+        android:drawableLeft="@drawable/red_cross"/>
+
+    <TextView
+        android:id="@+id/min_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Minimum heart rate"
+        android:textColor="@color/white_greyish"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        android:layout_below="@id/max_text"
+        android:drawableLeft="@drawable/green_cross"/>
+
+    <TextView
+        android:id="@+id/avg_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Average heart rate"
+        android:textColor="@color/white_greyish"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        android:layout_below="@id/min_text"
+        android:drawableLeft="@drawable/blue_circle"/>
+
+
+
+</RelativeLayout>

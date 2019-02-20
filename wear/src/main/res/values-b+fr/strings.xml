@@ -1,0 +1,7 @@
+<resources>
+    <string name="hello_world">Bonjour le monde!</string>
+    <string name="start_workout">Appuyez sur le bouton ci-dessous pour débuter un entraînement</string>
+    <string name="app_name">Controle de Santé</string>
+    <string name="hr">Fréquence Cardiaque: </string>
+    <string name="time">Durée:</string>
+</resources>
